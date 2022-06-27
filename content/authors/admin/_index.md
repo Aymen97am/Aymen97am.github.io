@@ -43,6 +43,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "/#contact" for contact widget.
 social:
+- icon: envelope
+  icon_pack: fas
+  link: /#contact
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.com/citations?user=t7diQAgAAAAJ&hl=fr
@@ -69,7 +72,7 @@ highlight_name: false
 
 I am a second-year PhD student at UMPA (ENS Lyon) and the Inria Scool team (formerly SequeL), supervised by [Aurélien Garivier](https://perso.ens-lyon.fr/aurelien.garivier/www.math.univ-toulouse.fr/_agarivie/index.html)  and [Emilie Kaufmann](https://emiliekaufmann.github.io/). Prior to my PhD, I graduated from ENS Paris-Saclay and École Polytechnique.
 
-My main research interests lie in Reinforcement Learning and Multi-Armed Bandits. In particular, I have worked on Pure Exploration problems, where the goal is to learn a "good" decision within a minimum number of interactions with the environment. I focus on designing theoretically-grounded algorithms with good empirical performance.
+My main research interests lie in Reinforcement Learning and Multi-Armed Bandits. In particular, I have worked on Pure Exploration problems, where the goal is to learn a "good" decision using minimal feedback/observations from the environment. I focus on designing theoretically-grounded algorithms with good empirical performance.
 
 I am also interested in online learning, statistical minimax theory, differential privacy and machine learning in general. 
 

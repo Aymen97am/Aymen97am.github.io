@@ -5,13 +5,27 @@ widget: pages
 
 # This file represents a page section.
 headless: true
+active: true
 
 # Order that this section appears on the page.
-weight: 90
+weight: 2
 
-title: Recent Publications
+title: Publications
 subtitle: ''
 
+design.background:
+  # Apply a background color, gradient, or image.
+  #   Uncomment (by removing `#`) an option to apply it.
+  #   Choose a light or dark text color by setting `text_color_light`.
+  #   Any HTML color name or Hex value is valid.
+
+  # Background color.
+  # color = "navy"
+  
+  # Background gradient.
+  gradient_start: "DarkGreen"
+  gradient_end: "ForestGreen"
+  
 content:
   # Filter on criteria
   filters:
@@ -32,10 +46,6 @@ content:
   order: desc
 design:
   # Choose a view for the listings:
-  view: citation
+  view: 4
   columns: '2'
 ---
-
-{{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
-{{% /callout %}}

@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title:  Aymen Al Marjani # Academic # Website name
-baseURL: 'https://62b71221c023237ff2df51fd--mystifying-morse-b081c8.netlify.app/' # Website URL
+baseURL: 'https://aymenalmarjani.netlify.app/' # Website URL
 
 ############################
 ## LANGUAGE
