@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title:  Aymen Al Marjani # Academic # Website name
-baseURL: 'https://aymen97am.github.io/' # Website URL
+baseURL: 'https://aymenalmarjani.netlify.app/' # Website URL
 
 ############################
 ## LANGUAGE
@@ -18,7 +18,6 @@ removePathAccents: true
 ############################
 ## MODULES
 ############################
-
 
 module:
   imports:
@@ -37,7 +36,6 @@ enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
- # event: '/teaching/:slug/'
   event: '/talk/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
@@ -67,3 +65,7 @@ related:
       weight: 100
     - name: categories
       weight: 70
+security:
+  _merge: deep
+sitemap:
+  _merge: deep

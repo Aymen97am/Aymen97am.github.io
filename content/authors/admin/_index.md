@@ -28,7 +28,7 @@ interests:
 education:
   courses:
   - course: PhD in Reinforcement Learning
-    institution: ENS Lyon
+    institution: ENS Lyon & Inria Lille
     year: 2021-Now
   - course: Msc in Machine Learning
     institution: ENS Paris-Saclay
@@ -70,9 +70,9 @@ email: ""
 highlight_name: false
 ---
 
-I am a second-year PhD student at UMPA (ENS Lyon) and the Inria Scool team (formerly SequeL), supervised by [Aurélien Garivier](https://perso.ens-lyon.fr/aurelien.garivier/www.math.univ-toulouse.fr/_agarivie/index.html)  and [Emilie Kaufmann](https://emiliekaufmann.github.io/). Prior to my PhD, I graduated from ENS Paris-Saclay and École Polytechnique.
+I am a third-year PhD student at UMPA (ENS Lyon) and the Inria Scool team (formerly SequeL), supervised by [Aurélien Garivier](https://perso.ens-lyon.fr/aurelien.garivier/www.math.univ-toulouse.fr/_agarivie/index.html)  and [Emilie Kaufmann](https://emiliekaufmann.github.io/). Prior to my PhD, I graduated from ENS Paris-Saclay and École Polytechnique.
 
-My main research interests lie in Reinforcement Learning and Multi-Armed Bandits. In particular, I have worked on Pure Exploration problems, where the goal is to learn a "good" decision using minimal feedback/observations from the environment. I focus on designing theoretically-grounded algorithms with good empirical performance.
+My main research interests lie in Reinforcement Learning and Multi-Armed Bandits. In particular, I have worked on Pure Exploration problems, where the goal is to learn a "good" decision using few rounds of interaction with the environment. I focus on designing theoretically-grounded algorithms with good empirical performance.
 
-I am also interested in online learning, statistical minimax theory, differential privacy and machine learning in general. 
+I am also interested in online learning, information theory, differential privacy and machine learning in general. 
 

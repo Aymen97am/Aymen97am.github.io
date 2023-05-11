@@ -1,5 +1,5 @@
 ---
-title: 'Near Instance-Optimal PAC Reinforcement Learning for Deterministic MDPs'
+title: 'Optimistic PAC Reinforcement Learning: the Instance-Dependent View'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -11,11 +11,11 @@ authors: [Andrea Tirinzoni, admin, Emilie Kaufmann]
 #  - 'Equal contribution'
 #  - 'Equal contribution'
 
-date: '2022-06-01'
+date: '2023-02-01'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2022-06-01'
+publishDate: '2023-02-01'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -24,15 +24,15 @@ publishDate: '2022-06-01'
 publication_types: ['3']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Neural Information Processing Systems 2022*
-publication_short: In *NeurIPS 2022*
+publication: In *International Conference on Algorithmic Learning Theory 2023*
+publication_short: In *ALT 2023*
 
-abstract: In probably approximately correct (PAC) reinforcement learning (RL), an agent is required to identify an $\\epsilon$-optimal policy with probability $1-\\delta$. While minimax optimal algorithms exist for this problem, its instance-dependent complexity remains elusive in episodic Markov decision processes (MDPs). In this paper, we propose the first (nearly) matching upper and lower bounds on the sample complexity of PAC RL in deterministic episodic MDPs with finite state and action spaces. In particular, our bounds feature a new notion of sub-optimality gap for state-action pairs that we call the deterministic return gap. While our instance-dependent lower bound is written as a linear program, our algorithms are very simple and do not require solving such an optimization problem during learning. Their design and analyses employ novel ideas, including graph-theoretical concepts such as minimum flows and maximum cuts, which we believe to shed new light on this problem.
+abstract: Optimistic algorithms have been extensively studied for regret minimization in episodic tabular Markov Decision Processes (MDPs), both from a minimax and an instance-dependent view. However, for the PAC RL problem, where the goal is to identify a near-optimal policy with high probability, little is known about their instance-dependent sample complexity. A negative result of Wagenmaker et al.(2022) suggests that optimistic sampling rules cannot be used to attain the (still elusive) optimal instance-dependent sample complexity. On the positive side, we provide the first instance-dependent bound for an optimistic algorithm for PAC RL, BPI-UCRL, for which only minimax guarantees were available (Kaufmann et al., 2021). While our bound features some minimal visitation probabilities, it also features a refined notion of sub-optimality gap compared to the value gaps that appear in prior work. Moreover, in MDPs with deterministic transitions, we show that BPI-UCRL is actually near instance-optimal (up to a factor of the horizon). On the technical side, our analysis is very simple thanks to a new “target trick” of independent interest. We complement these findings with a novel hardness result explaining why the instance-dependent complexity of PAC RL cannot be easily related to that of regret minimization, unlike in the minimax regime.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: ["Markov Decision Processes", "PAC RL", "Pure Exploration"]
+tags: ["Markov Decision Processes", "PAC RL", "Optimistic Algorithms"]
 
 # Display this page in the Featured widget?
 featured: true
@@ -40,14 +40,14 @@ featured: true
 # Custom links (uncomment lines below)
 links:
  - name: PDF
-   url: https://proceedings.neurips.cc/paper_files/paper/2022/file/39c60dda48ebf0a2e5dda52ce08eb5c8-Paper-Conference.pdf
+   url: https://proceedings.mlr.press/v201/tirinzoni23a/tirinzoni23a.pdf
    weight: 1
- - name: Slides
-   url: 'JDS_TALK.pdf'
-   weight: 2
+#  - name: Slides
+#    url: 'JDS_TALK.pdf'
+#    weight: 2
  - name: Arxiv
-   url: https://arxiv.org/abs/2203.09251
-   weight: 3
+   url: https://arxiv.org/abs/2207.05852
+   weight: 2
 # - name: Cite
 #   url: 'cite.bib'
 #   weight: 4
